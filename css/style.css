@@ -1,0 +1,16 @@
+body{
+    background-color: #7e7e7e;
+}
+
+#anima-div{
+    background: url("../imgs/ciclo-animacao.jpg");
+    width: 250px;
+    height: 240px;
+    margin: 250px;
+    animation: anima-sprite 1s steps(8) infinite;
+}
+
+@keyframes anima-sprite{
+    from{background-position: 0px;}
+    to{background-position: -1920px;}
+}
